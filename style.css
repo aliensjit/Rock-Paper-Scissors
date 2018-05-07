@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header, #reset {
+	text-align: center;
+	font-family: sans-serif;
+	background-color: #E6E6FA;
+	color: #9370DB;
+	padding: 20px;
+}
+ #reset {
+ 	position: absolute;
+ 	right: 120px;
+ 	bottom: 50px;
+ 	border-radius: 50%;
+ }
+
+.scoreboard {
+	border: 3px solid white;
+	border-radius: 3%;
+	width: 200px;
+	margin: 20px auto;
+	text-align: center;	
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	padding: 15px 20px;
+	position: relative;
+	height: 100px;
+	font-size: 60px;
+	box-shadow: 2px 2px 40px black;
+}
+
+.players {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #483D8B;
+	background: #B0C4DE;
+	padding: 20px;
+	border-radius: 15px;
+	border: 3px solid white;
+
+}
+
+#user {
+	position: absolute;
+	top: 20px;
+	left: -100px;
+	
+}
+#comp {
+	position: absolute;
+	top: 20px;
+	right: -115px;
+}
+
+.intro {
+	font-size: 30px;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	padding-bottom: 15px;
+}
+
+.turns {
+	text-align: center;
+	margin: 40px;
+}
+
+.choice {
+	display: inline-block;
+	margin: 10px 20px;
+	border-radius: 50%;
+	box-shadow: 0 0 20px #AFEEEE;
+}
+.choice:hover {
+	cursor: pointer;
+	filter: grayscale(50%);
+}
+#reset:hover {
+	cursor: pointer;
+	filter: grayscale(100%);
+}
+
+.result {
+	padding: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+	
+body {
+	background-color: #483D8B;
+}
+.yellow-glow {
+	box-shadow: 0 0 30px yellow;
+}
+.pink-glow {
+	box-shadow: 0 0 30px #FF00FF;
+}
+.gray-glow {
+	box-shadow: 0 0 30px black;
+}
+
